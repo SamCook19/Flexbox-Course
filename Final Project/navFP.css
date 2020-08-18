@@ -1,0 +1,131 @@
+body {
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+    width: auto;
+    height: 1000px;
+}
+
+.navigation-wrapper {
+    height: 100px;
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-wrapper > .left-column {
+    display:flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.navigation-wrapper > .left-column > .code-pen-logo img {
+    height: 100px;
+    width: 190px;
+}
+
+
+.navigation-wrapper > .center-column {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 1600px;
+    margin-left: 60px;
+}
+    
+.navigation-wrapper > .center-column > .links-explore > .explore {
+    color:yellow;
+    margin-top: 30px;
+    font-weight:bold;
+}
+
+.navigation-wrapper > .center-column > .links-explore > .links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-wrapper > .center-column > .links-explore > .links-wrapper {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 500px;
+
+}
+
+
+.center-column > .links-explore > .links-wrapper >  .nav-link {
+    width: 50px;
+    height: 24px;
+}
+
+.center-column > .links-explore > .links-wrapper >  .nav-link a {
+    color: white;
+    width: 50px;
+    text-decoration: none;
+}
+
+.center-column > .links-explore > .links-wrapper > .nav-link-blah {
+    padding-left: 22px;
+}
+
+.center-column > .links-explore > .links-wrapper > .spark {
+    color: grey;
+    font-weight: normal;
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    padding-left: 45px;
+}
+
+
+.right-column > .btn {
+    background-color: #383838;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    padding: 10px 25px;
+    border: 1px solid #383838;
+    border-radius: 2px;
+    outline: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.navigation-wrapper > .right-column > .btnChev i {
+    color: #33FF66;
+    font-size: 25px;
+    padding-left: 15px;
+    filter: brightness(80%);
+    vertical-align: middle;
+}
+
+.navigation-wrapper > .right-column > .btnChev {
+    background-color: #383838;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    padding: 10px 25px;
+    border: 1px solid #383838;
+    border-radius: 2px;
+    outline: none;
+    text-align: center;
+    margin-right: 20px;
+    font-weight: bold;
+   
+}
+
+.navigation-wrapper > .right-column {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    padding-top: 20px;
+   
+
+}
+
+.navigation-wrapper > .right-column i {
+    color: grey;
+    font-size: 50px;
+
+}
